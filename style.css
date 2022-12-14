@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.header, .footer {
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.header a,
+.header a:hover {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
