@@ -43,7 +43,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0 100px 0;
+    padding: 100px 0 150px 0;
 }
 .hero h1 {
     font-size: 48px;
@@ -76,5 +76,17 @@ body {
     align-items: center;
     padding: 100px 200px;
     background: #6d747d;
+}
+
+.hero button {
+    background: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 32px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 700;
+
 }
 
