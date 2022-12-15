@@ -134,3 +134,28 @@ body {
     margin-top: 5px;
     text-align: center;
 }
+
+.quote {
+    background: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 150px 0;
+}
+
+.quote p {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 42px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.quote h4 {
+font-size: 32px;
+font-weight: 700;
+margin: 50px 400px 0 auto;
+}
